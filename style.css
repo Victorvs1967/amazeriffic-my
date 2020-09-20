@@ -1,18 +1,41 @@
+body {
+    color: #262626;
+    background: #f2d8d5;
+    padding: 0;
+    margin: 0;
+}
 h1 {
     font-family: 'Denk One', sans-serif;
+    color: #f2d8d5;
+    font-size: 38px;
+}
+h2 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+h4 {
+    margin: 20px 0;
+    font-size: 18px;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 80px;
+    padding: 20px 50px 20px 80px;
+    background: #593636;
 }
 .main-content {
-    display: flex;
     max-width: 90%;
+    display: flex;
     padding-top: 40px;
     margin: auto;
+}
+.main-content ul {
+    padding: 20px;
 }
 .content {
     max-width: 60%;
@@ -23,14 +46,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
+    color: #f2d8d5;
+    background: #593636;
 }
-.footer h4 {
+.footer-title {
     margin: 0;
 }
 .contact-text {
     margin-top: 0;
+    color: #ffd0b8;
 }
 .map-nav {
     display: flex;
@@ -39,14 +64,14 @@ h1 {
 }
 .map-nav ul {
     padding: 0;
-    padding-right: 180px;
     margin: 0;
+    padding-right: 180px;
 }
 .map-nav li{
     list-style: none;
 }
 .nav-item {
     text-decoration: none;
-    color: gray;
+    color: #ffd0b8;
 }
 
