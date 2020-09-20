@@ -36,6 +36,13 @@ h4 {
     line-height: 32px;
     margin: 10px 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
 .container {
     max-width: 90%;
     margin: auto;
@@ -55,6 +62,9 @@ main .container {
     width: 60%;
     margin-right: 50px;
 }
+.content ul {
+    list-style: square inside;
+}
 footer .container {
     display: flex;
     justify-content: space-between;
@@ -62,8 +72,15 @@ footer .container {
 .contacts, .site-map {
     width: 40%;
 }
+.contact-text {
+    font-size: 14px;
+    line-height: 24px;
+}
 .map-nav {
     display: flex;
     justify-content: space-between;
     width: 70%;
+}
+.map-item a {
+    font-size: 14px;
 }
