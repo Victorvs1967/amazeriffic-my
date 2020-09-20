@@ -62,7 +62,10 @@ main .container {
     width: 60%;
     margin-right: 50px;
 }
-.content ul {
+.list-title {
+    margin-top: 50px;
+}
+.content-list {
     list-style: square inside;
 }
 footer .container {
