@@ -1,5 +1,8 @@
 body {
     background: #f9e933;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
 }
 header, main, footer {
     min-width: 90%;
@@ -10,7 +13,57 @@ header {
 main {
     background: white;
 }
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Denk One', sans-serif;
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 10px 0;
+}
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 10px 0;
+}
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 10px 0;
+}
 .container {
     max-width: 90%;
-    margin: auto;    
+    margin: auto;
+    padding: 50px 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+main .container {
+    display: flex;
+    align-items: start;
+}
+.content {
+    width: 60%;
+    margin-right: 50px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts, .site-map {
+    width: 40%;
+}
+.map-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
