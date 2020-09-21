@@ -54,13 +54,39 @@ header .container {
     justify-content: space-between;
     padding: 50px;
 }
-main .container {
-    display: flex;
-    align-items: start;
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+    margin-right: 10px;
+    text-align: center;
+    background: #c0c0c0;
+    padding: 5px;
+}
+.tabs a span.active {
+    background: #e0e0e0;
 }
 .content {
-    width: 60%;
-    margin-right: 50px;
+    width: 90%;
+    background: #e0e0e0;
+    padding: 40px;
+}
+.content li {
+    background: #c0c0c0;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.content button {
+    padding: 6px 0 10px 0;
+    font-size: 18px;
+    width: 15%;
+}
+.content input {
+    padding: 10px 4px;
+    font-style: 18px;
+    width: 80%;
+    margin-right: 8px;
 }
 .list-title {
     margin-top: 50px;
