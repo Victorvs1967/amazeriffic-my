@@ -13,15 +13,14 @@ const main = () => {
             $('.tabs a span').removeClass('active');
             $(tab).addClass('active');
             $('main .content').empty();
+            let $content = $('<ul>');
             if ($(tab).parent().is(':nth-child(1)')) {
-                let $content = $('<ul>');
                 toDos.reverse().forEach((todo) => {
                     $content.append($('<li>').text(todo));
                 });
                 $('main .content').append($content);
                 toDos.reverse();
             } else if ($(tab).parent().is(':nth-child(2)')) {
-                let $content = $('<ul>');
                 toDos.forEach((todo) => {
                     $content.append($('<li>').text(todo));
                 });
