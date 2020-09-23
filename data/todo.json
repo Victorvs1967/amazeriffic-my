@@ -1,0 +1,30 @@
+[
+    {
+        "description": "Bay food.",
+        "tags": ["shoping", "boring"]
+    },
+    {
+        "description": "Do any new tasks.",
+        "tags": ["writing", "work"]
+    },
+    {
+        "description": "Preparing for lection on Monday.",
+        "tags": ["work", "teeching"]
+    },
+    {
+        "description": "Asking on email.",
+        "tags": ["work"]
+    },
+    {
+        "description": "Walk with Graicy in park.",
+        "tags": ["pet", "boring"]
+    },
+    {
+        "description": "Read interesting book.",
+        "tags": ["hobby"]
+    },
+    {
+        "description": "End writing a book.",
+        "tags": ["writing", "work"]
+    }
+]

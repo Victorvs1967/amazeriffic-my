@@ -84,7 +84,7 @@ header .container {
 }
 .content input {
     padding: 10px 4px;
-    font-style: 18px;
+    font-size: 18px;
     width: 80%;
     margin-right: 8px;
 }
