@@ -18,12 +18,15 @@ const organizedByTags = (todos) => {
     });
     return tagObjects;
 };
-
+let toDos;
 const main = (tasks) => {
     'use strict';
-    let toDos = tasks.map((toDo) => {
-        return toDo.description;
-    });
+    const reNewToDos = () => {
+        toDos = tasks.map((toDo) => {
+            return toDo.description;
+        });   
+    };
+    reNewToDos();
     $('.tabs a span').toArray().forEach((tab) => {
         $(tab).on('click', () => {
             $('.tabs a span').removeClass('active');
@@ -66,9 +69,7 @@ const main = (tasks) => {
                 const addFromInput = () => {
                     if ($('.content input.task').val() !== '' && $('.content input.tags').val() !== '') {
                         tasks.push({'description': $('.content input.task').val(), 'tags': $('.content input.tags').val().split(','),});
-                        toDos = tasks.map((todo) => {
-                            return todo.description;
-                        });
+                        reNewToDos();
                         $('.content input.task').val('');    
                         $('.content input.tags').val('');    
                     }        
